@@ -22,3 +22,37 @@ A simple, lightweight Python script to batch-rename files numerically based on u
 1. Run the script via terminal or command prompt:
    ```bash
    python rename_script.py
+   A file dialog window will appear. Select the files you want to rename.
+   
+2. A file dialog window will appear. **Select the files** you want to rename.
+
+> **Note:** The order in which files are selected (or the order your OS passes them) determines their new number.
+
+3. The script will process the files and print the status to the console.
+
+### Output
+
+A new folder named `renamed_files` is created in the same directory as the source files.
+
+* Original: `photo_vacation.jpg`
+* New: `renamed_files/1.jpg`
+
+Note: The order in which files are selected (or the order your OS passes them) determines their new number.
+
+The script will process the files and print the status to the console.
+
+Output
+
+A new folder named renamed_files is created in the same directory as the source files.
+
+Original: photo_vacation.jpg
+
+New: renamed_files/1.jpg
+
+📂 Project Structure
+.
+├── rename_script.py    # Main executable script
+└── renamed_files/      # (Generated) Destination for renamed files
+
+📝 License
+MIT License - Feel free to use and modify for your own projects!
